@@ -1,9 +1,10 @@
+#-*-coding: utf-8-*-#
+#//imports//#
+import random
+import pyfiglet
+import os
+import time as t
 def passwd():
-	import random
-	import pyfiglet
-	import os
-	import time as t
-	
 	#colors
 	yellow =  '\033[93m'
 	green = '\033[92m'
@@ -11,7 +12,7 @@ def passwd():
 	pink ='\033[95m'
 	red ='\033[91m'
 	bold = '\033[1m'
-	header = pyfiglet.figlet_format("PASS-GEN", font = "slant")
+	header = pyfiglet.figlet_format("RPG", font = "slant")
 	
 	#code
 	t.sleep(0.3)
