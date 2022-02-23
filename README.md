@@ -3,6 +3,7 @@ RPG (Random Password Generator) is a tool created with python that helps you to 
 # USAGE
 apt install python
 apt install git
+pip3 install -r requirements.txt
 git clone https://github.com/NakedSecurity/RPG.git
 ls
 cd RPG
