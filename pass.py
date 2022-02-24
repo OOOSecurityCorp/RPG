@@ -4,6 +4,7 @@ import random
 import pyfiglet
 import os
 import time as t
+os.system("clear")
 def passwd():
 	#colors
 	yellow =  '\033[93m'
