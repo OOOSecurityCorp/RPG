@@ -24,14 +24,7 @@ def passwd():
 	t.sleep(0.5)
 	print (yellow + bold + "==> github: https://www.github.com/NakedSecurity.git <==" +bold +yellow)
 	print (" ")
-	t.sleep(0.7)
-	start = input("type start to proceed...  ")
-	if start != "start":
-		t.sleep(0.3)
-		print (red +"invalid input!")
-		exit()
-	else:
-		try :
+	try :
 			t.sleep(0.5)
 			length = int(input(cyan+ bold+  "Enter the length of the password :   "+ bold + cyan))
 			print (yellow + bold + ":::::>password generator<:::::" + bold + yellow)
@@ -51,7 +44,7 @@ def passwd():
 			t.sleep(1.5)
 			print (green + bold +"*****THANK YOU FOR USING ME*****"+bold + green)
 			
-		except :
+	except :
 			t.sleep(0.7)
 			print (red +"invalid input!")
 			
