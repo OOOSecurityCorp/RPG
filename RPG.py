@@ -20,9 +20,9 @@ def passwd():
 	print (red + bold+ header +red + bold +'\033[0m')
 	print (" ")
 	t.sleep(0.5)
-	print (green + bold +"[coded by  NakedSecurity]" + bold + green)
+	print (green + bold +"[coded by  000SecurityCorp]" + bold + green)
 	t.sleep(0.5)
-	print (yellow + bold + "==> github: https://www.github.com/NakedSecurity.git <==" +bold +yellow)
+	print (yellow + bold + "==> github: https://www.github.com/000SecurityCorp.git <==" +bold +yellow)
 	print (" ")
 	try :
 			t.sleep(0.5)
